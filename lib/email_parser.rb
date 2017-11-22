@@ -8,7 +8,7 @@ class EmailParser
 
   end
 
-  def self.new
+  def self.new(emails)
     e = self.new
     emails_parsed = []
     emails_parsed << emails
